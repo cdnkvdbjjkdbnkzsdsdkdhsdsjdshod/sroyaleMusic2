@@ -7,7 +7,7 @@ const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
 const client = new Discord.Client();
-const prefix = "1";
+const prefix = "2";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -228,7 +228,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }//by ,$ ReBeL ء , 🔕#4777 'Royale .. SERVER'
 
-const adminprefix = "$";//by ,$ ReBeL ء , 🔕#4777 'Royale .. SERVER'
+const adminprefix = "2$";//by ,$ ReBeL ء , 🔕#4777 'Royale .. SERVER'
 const devs = ['323885452207587329'];//by ,$ ReBeL ء , 🔕#4777 'Royale .. SERVER'
 client.on('message', message => {//by ,$ ReBeL ء , 🔕#4777 'Royale .. SERVER'
   var argresult = message.content.split(` `).slice(1).join(' ');//by ,$ ReBeL ء , 🔕#4777 'Royale .. SERVER'
