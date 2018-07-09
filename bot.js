@@ -12,6 +12,7 @@ const prefix = "2";
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(``,"http://twitch.tv/S-F")
+client.user.setUsername('\' Royale')
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
